@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 
 var crypto = require('crypto');
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8802;
 
 //*********以下内容与推送无关************//
 server.listen(port, function () {
